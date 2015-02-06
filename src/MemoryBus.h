@@ -5,7 +5,6 @@
 
 class Cpu;
 class Ppu;
-class Apu;
 class Cartridge;
 class CpuInternalRam;
 
@@ -13,7 +12,7 @@ class CpuMemoryBus
 {
 public:
 	CpuMemoryBus();
-	void Initialize(Cpu& cpu, Ppu& ppu, Apu& apu, Cartridge& cartridge, CpuInternalRam& cpuInternalRam);
+	void Initialize(Cpu& cpu, Ppu& ppu, Cartridge& cartridge, CpuInternalRam& cpuInternalRam);
 
 	uint8 Read(uint16 cpuAddress);
 	void Write(uint16 cpuAddress, uint8 value);
@@ -21,7 +20,6 @@ public:
 private:
 	Cpu* m_cpu;
 	Ppu* m_ppu;
-	Apu* m_apu;
 	Cartridge* m_cartridge;
 	CpuInternalRam* m_cpuInternalRam;
 };

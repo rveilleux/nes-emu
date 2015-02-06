@@ -147,6 +147,7 @@ uint8 Cpu::HandleCpuRead(uint16 cpuAddress)
 		break;
 	}
 
+	//@TODO: Implement pAPU registers
 	return 0;
 }
 
@@ -187,6 +188,7 @@ void Cpu::HandleCpuWrite(uint16 cpuAddress, uint8 value)
 		break;
 
 	default:
+		//@TODO: Implement pAPU registers
 		break;
 	}
 }
