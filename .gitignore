@@ -31,3 +31,7 @@ ipch/
 # Project-specific
 temp/
 *.dmp
+*.nes
+audiodump-S16LSB.raw
+/*.rar
+/*.zip

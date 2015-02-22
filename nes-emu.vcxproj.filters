@@ -88,6 +88,9 @@
     <ClInclude Include="src\Mapper7.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="src\Apu.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Cpu.cpp">
@@ -133,6 +136,9 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\Mapper4.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Apu.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
